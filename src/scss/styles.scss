@@ -1,0 +1,98 @@
+
+//VARIABLES
+@import 'variables';
+
+//CSS RESET
+@import 'reset';
+
+//MIXNIS
+@import 'mixins';
+
+//FRAMEWORK
+@import 'framework';
+
+//TYPOGRAPHY
+@import 'text';
+
+//COLORS
+@import 'colors';
+
+//Sprites
+// @import 'sprites';
+
+//FONTS
+@import 'fonts';
+
+//FLEX GRID
+@import 'flex';
+
+//DIALOG WINDOW
+@import 'dialog';
+
+//SLIDES LAYOUT
+@import 'layout';
+
+//USEFUL CLASSES
+@import 'useful-classes';
+
+//Material Icons
+@import 'material-icons';
+
+// //FLEX GRID
+//@import 'grid';
+
+
+//CUSTOM
+@import 'custom';
+
+//Global
+@import 'global';
+
+
+//Plugins
+@import 'plugins';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.drinks-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.drinks {
+  width: 400px;
+  margin: 10px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.drinks h4 {
+  padding: 5px 10px;
+}
+
+.drinks img{
+  width: 320px;
+  height: 450px;
+}
+
+
+.drinks .id {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  padding: 15px;
+  background-color: darkred;
+
+}
+
+
+
+
+
